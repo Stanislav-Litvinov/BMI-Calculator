@@ -15,7 +15,7 @@ public class Main {
         System.out.println("ИМТ равен: " + bmiOverWeight);
 
         double bmiObesity1 = bodyMassIndex.calculate(175, 100);
-        System.out.println(bmiObesity1);
+        System.out.println("ИМТ равен: " + bmiObesity1);
 
         double bmiObesity2 = bodyMassIndex.calculate(175, 120);
         System.out.println("ИМТ равен: " + bmiObesity2);
